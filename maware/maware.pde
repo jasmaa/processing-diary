@@ -6,8 +6,6 @@ int totalFrames = 120;
 
 void setup () {
   size(700, 700, P3D);
-  
-  // Gif
   gifExport = new GifMaker(this, "export.gif", 100);
   gifExport.setRepeat(0);
 }
@@ -20,7 +18,7 @@ void draw() {
   textFont(createFont("Meiryo",80));
   textAlign(CENTER, CENTER);
   randomSeed(0);
-  for(int i=0; i < 100; i++) {
+  for(int i = 0; i < 100; i++) {
     text("回れ", random(700), 100);
     rotateY(0.01*frameCount);
   }

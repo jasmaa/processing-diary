@@ -1,6 +1,6 @@
-# Processing Fun
+# Processing Diary
 
-Processing fun
+Diary of small experiments
 
 Requires [gifAnimation](https://github.com/extrapixel/gif-animation) for export
 
